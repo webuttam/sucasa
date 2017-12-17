@@ -28,13 +28,16 @@
 	<!--<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>-->
 
 	<header id="masthead" class="site-header" role="banner">
-
-		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
-		<div class="menu">
-			<?php if ( has_nav_menu( 'top' ) ) : ?>				
-			<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
-		</div><!-- .wrap -->
-		<?php endif; ?>
+		<div class="container">
+			<div class="row">
+				<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
+				<div class="menu">
+					<?php if ( has_nav_menu( 'top' ) ) : ?>				
+					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
+				</div><!-- .wrap -->
+				<?php endif; ?>
+			</div>
+		</div>
 
 	</header><!-- #masthead -->
 
