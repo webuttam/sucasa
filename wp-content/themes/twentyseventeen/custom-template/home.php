@@ -1,7 +1,9 @@
 <?php
-/* Template Name: home temp*/ ?>
+/*Pa
+ * Template Name: homepage
+ */
 
-<?php get_header(); ?>
+get_header(); ?>
 
 <div class="home-banner">
 	<div class="container">
@@ -10,4 +12,4 @@
 	</div>
 </div><!-- .home-banner -->
 
-<?php get_footer(); ?>
+<?php get_footer();
