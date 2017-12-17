@@ -33,7 +33,7 @@
 		<div class="container">
 			<div class="row">
 				<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
-				<div class="menu">
+				<div class="top-head-menu">
 					<?php if ( has_nav_menu( 'top' ) ) : ?>				
 					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
 				</div><!-- .wrap -->
