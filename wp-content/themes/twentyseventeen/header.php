@@ -19,8 +19,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/bootstrap.css" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/js/bootstrap.js" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/main.css" />
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
 <?php wp_head(); ?>

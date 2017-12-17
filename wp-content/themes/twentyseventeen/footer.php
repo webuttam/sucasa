@@ -41,6 +41,9 @@
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/js/bootstrap.js" />
 <?php wp_footer(); ?>
 
 </body>

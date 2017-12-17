@@ -455,7 +455,7 @@ function twentyseventeen_scripts() {
 
 	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/bootstrap/dist/css/bootstrap.css' ), array( 'jquery' ), '1.0', true );
 
-	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/sass-library/main.scss' ), array( 'jquery' ), '1.0', true );
+	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/css/main.css' ), array( 'jquery' ), '1.0', true );
 
 	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/css/font-awesome.min.css' ), array( 'jquery' ), '1.0', true );
 
