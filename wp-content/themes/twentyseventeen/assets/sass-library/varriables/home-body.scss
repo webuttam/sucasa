@@ -1,0 +1,126 @@
+body{padding: 0; ,margin: 0; font-family: 'Montserrat', 'Open Sans', sans-serrif;}
+.custom-header{display: none;}
+.site-header{background: #d0e52c !important; padding:8px 0; text-align: center !important;}
+.top-head-menu ul{text-align: center !important;}
+.top-head-menu ul li.current_page_item a{border-bottom: 2px solid #493e2b; font-weight: 700;}
+.top-head-menu ul li.current_page_item.hvr-underline-from-left::before{display: none;}
+.top-head-menu ul li a{color: #493e2b; font-size: 16px; text-transform: uppercase; padding:0 18px; font-family: 'Montserrat', sans-serif; transition: 0.4s ease; font-weight: 600;}
+.top-head-menu ul li a:hover{color:#493e2b;/* border-bottom: 2px solid #493e2b;*/}
+.home-banner{position: relative;}
+.logo-sec {
+    position: absolute;
+    top: 33px;
+    left: -9px;
+    right: 0;
+    width: 600px;
+    margin: 0 auto;
+}
+.logo-sec img {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.buy-ticket-sec {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+.buy-ticket-sec img {
+    position: relative;
+    width: 250px;
+}
+.buy-ticket-sec a {
+    position: absolute;
+    right: 19px;
+    top: 62%;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 22px;
+    transform: rotate(-7deg);
+    transition:0.4s ease;
+}
+.buy-ticket-sec a:hover{color: #fff; opacity: 0.8;}
+.banner-heading{
+    position: absolute;
+    bottom: 29%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    z-index: 99999;
+}
+.banner-heading h2{
+	background: #493e2b;
+    border: 3px solid #75654c;
+    padding: 8px 0 !important;
+    margin: 0;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: normal !important;
+}
+.banner-heading a {
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background: #fa9601;
+    display: inline-block;
+    padding: 6px 60px;
+    font-weight: 700;
+    color: #3e3325;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+.banner-heading a:hover{text-decoration: none;}
+.header-social{    
+	background: #493e2b;
+    text-align: center;
+    position: absolute;
+    bottom: 19%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding:6px 0;
+}
+.header-social ul {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    z-index: 99999;
+}
+.header-social ul li{
+	display: inline-block;
+	float: none;
+}
+.header-social ul li a{
+	font-size: 25px;
+	color: #fff;
+	padding:0 15px;
+	display: block;
+	transition: 0.4s ease;
+}
+.header-social ul li a:hover{
+	color:#d0e52c;
+}
+.video-section {
+    margin-top: -40%;
+}
+.video-section img {
+    position: relative;
+    z-index: 11111;
+}
+.video {
+    position: absolute;
+    margin-top: -44.7%;
+    z-index: 999;
+}

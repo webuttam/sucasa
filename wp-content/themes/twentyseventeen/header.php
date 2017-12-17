@@ -20,8 +20,11 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/bootstrap.css" />
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/main.css" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/animate.css" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/animate.min.css" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/hover.css" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
 <?php wp_head(); ?>
 </head>
