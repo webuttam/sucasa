@@ -41,7 +41,8 @@ get_header(); ?>
 <div class="video-section">
 	<img src="<?php bloginfo('template_directory'); ?>/assets/images/video-bg.png" class="wow swing"  data-wow-delay="1.90s" data-wow-duration="1.90s" />
 	<div class="video">
-		<img src="<?php bloginfo('template_directory'); ?>/assets/images/video.jpg" />
+		<a class="js-open-modal btn" href="#" data-modal-id="popup1"><img src="<?php bloginfo('template_directory'); ?>/assets/images/yt-icon.png" /></a>
+		<!--<img src="<?php bloginfo('template_directory'); ?>/assets/images/video.jpg" />-->
 	</div>
 </div>
 
